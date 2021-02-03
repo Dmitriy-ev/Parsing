@@ -1,0 +1,71 @@
+
+[
+	{
+		"name": "Монолит",
+		"adress": "Москва",
+		"phoneNumber": 112324,
+		"inn": 723435,
+		"ogrn": 1147746,
+		"dateFoundation": "2002-04-14",
+		"securityPaper": [{
+			"nameOrganization": "ООО Восход",
+			"id": 1,
+			"name": "Облигация",
+			"dataExpiry": "2020-01-20",
+			"currency": "RU"
+			}, {
+			"nameOrganization": "ООО Монолит",
+			"id": 2,
+			"name": "Акция",
+			"dataExpiry": "2019-09-13",
+			"currency": "EU"
+			}]
+		},
+	{
+		"name": "Восток",
+		"adress": "Уфа",
+		"phoneNumber": 89223,
+		"inn": 352517,
+		"ogrn": 106352,
+		"dateFoundation": "2010-11-10",
+		"securityPaper": [{
+		"nameOrganization": "ООО Восток",
+			"id": 6,
+			"name": "Закладная",
+			"dataExpiry": "2011-01-11",
+			"currency": "USD"
+			}, {
+			"nameOrganization": "ООО Сбербанк",
+			"id": 5,
+			"name": "Чек",
+			"dataExpiry": "2016-12-16",
+			"currency": "USD"
+			}]
+	    }, {
+		"name": "Стройдом",
+		"adress": "Новосибирск",
+		"phoneNumber": 89154,
+		"inn": 5410,
+		"ogrn": 11354,
+		"dateFoundation": "1997-01-17",
+		"securityPaper": [{
+		"nameOrganization": "ООО Стройдом",
+			"id": 9,
+			"name": "Закладная",
+			"dataExpiry": "2013-01-13",
+			"currency": "RU"
+			}, {
+			"nameOrganization": "ООО Газпромбанк",
+			"id": 12,
+			"name": "Чек",
+			"dataExpiry": "2024-08-24",
+			"currency": "EU"
+			},{
+			"nameOrganization": "ООО Стройдом",
+			"id": 87,
+			"name": "Сертификат",
+			"dataExpiry": "2013-03-13",
+			"currency": "EU"
+			}]
+		}
+]	
