@@ -47,10 +47,7 @@ public class PointTask {
 	}
 	
 	public void getAllDataAfter(String data){
-		DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-//		DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("dd.MM.yy");
-//		DateTimeFormatter formatter3 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-//		DateTimeFormatter formatter4 = DateTimeFormatter.ofPattern("dd/MM/yy");
+		DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("[dd.MM.yyyy][dd.MM.yy][dd/MM/yyyy][dd/MM/yy]");
 		LocalDate local = LocalDate.parse(data, formatter1);
 		parseMapper().stream()
 				.filter(s -> LocalDate.parse(s.getDateFoundation()).isAfter(local))
@@ -90,4 +87,8 @@ public class PointTask {
 		security.forEach(System.out::println);
 	}
 	
+	public List<String> formatString(String data){
+		List<String> list = new ArrayList<>();
+		return list;
+	}
 }
